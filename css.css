@@ -1,0 +1,650 @@
+@font-face {
+  font-family: futura;
+  src: url(sansation_light.woff);
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	background-color: rgb(13,23,47);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#navbarResponsive{
+	z-index: 100;
+	padding: .5rem;
+}
+.active{
+	color: white;
+}
+#navbarResponsive li{
+	padding-right: 15px;
+}
+#content{
+	
+	width: 100%;
+	position: absolute;
+
+}
+#home{
+	text-align: center;
+	background-color: rgba(47,187,195,0.5);
+	position: relative;
+	
+	float: left;
+	left: 10%;
+	width: 80%;
+	margin-top: 100px;
+	padding: 25px;
+	z-index: 0;
+}
+#homeContent{
+	width: 60%;
+	color: #EEE;
+	background-color: rgba(13,23,47,0.8);
+	padding: 25px;
+	z-index: 1;
+	
+}
+#resume{
+	text-align: center;
+	background-color: rgba(47,187,195,0.5);
+	float: left;
+	clear: left;
+	position: relative;
+	margin-top: 50px;
+	width: 80%;
+	left: 10%;
+	padding: 25px;
+}
+#resumeContent{
+	width: 80%;
+	
+	padding: 25px;
+	z-index: 1;
+}
+
+#pdfResume{
+	text-align: center;
+	margin-top: 15px;
+}
+
+#aresume{
+	text-decoration: none;
+}
+#projects{
+	text-align: center;
+	background-color: rgba(47,187,195,0.5);
+	float: left;
+	clear: left;
+	position: relative;
+	margin-top: 50px;
+	width: 80%;
+	left: 10%;
+	padding: 25px;
+}
+button:focus {outline:0;}
+.pj{
+	margin: 10px;
+    transition: transform .2s;
+	color: #eee;
+	background-color: rgba(13,23,47,0.8);
+}
+
+.jezik{
+	color: rgba(47,187,195,0.5);
+	 position:absolute;
+    bottom:0px;
+    right:25%;
+    left:50%;
+    margin-left:-70px;
+	
+	font-size: 15px;
+}
+#dugme{
+	text-align: center;
+	background-color: rgba(47,187,195,0.5);
+	float: left;
+	clear: left;
+	position: relative;
+	margin-top: 50px;
+	width: 80%;
+	left: 10%;
+	padding: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+	
+
+}
+
+#dugme p,a{
+	padding-bottom: 25px;
+}
+
+
+#but,#btnresume{
+    left: 50%;
+    width: 130px;
+	height: 80px;
+	background-color: transparent;
+	border-radius: 999px;
+	font-size: 20px;
+	color: rgba(13,23,47,0.8);
+	border-color: rgb(70,255,219,0.75);
+
+}
+img{
+	width: 30px;
+	padding-top: 30px;
+	background-color: transparent;
+	opacity: 0.7;
+}
+.ik{
+	padding: 0;
+	
+	transition: transform .1s;
+}
+.ik:hover{
+	transform: scale(1.9);
+}
+#fb,#insta{
+	
+	margin-bottom: 30px;
+}
+#kontaktlevo{
+	width: 40px;
+    position: fixed;
+    bottom: 10%;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    float: left;
+    color: rgb(168, 178, 209);
+    display: inline;
+}
+
+
+#email{
+	 color: rgb(168, 178, 209);
+	 text-decoration: none;
+	 font-size: 20px;
+
+}
+#kontaktdesno{
+	writing-mode: vertical-lr;
+   bottom: 10%;
+   right: 50px;
+   position: fixed;
+   z-index: 10;
+   transition: transform .2s;
+}
+#kontaktdesno:hover{
+	transform: scale(1.2);
+}
+#but:hover{
+	background-color: rgba(47,187,195,0.5); 
+}
+.git{
+	width: 40px;
+	height: 40px;
+	z-index: 50;
+    padding: 0px;
+}
+.agithub{
+	    position: absolute;
+	    bottom: 50px;
+		 width: 40px;
+		 height: 40px;
+		 z-index: 10;
+
+    right:25%;
+    left:50%;
+    margin-left:-15px;
+		
+		
+}
+#btnresume:hover{
+	background-color: rgba(47,187,195,0.5); 
+}
+@media screen and (max-width: 2600px){/*4k*/
+	.ik:hover{
+	transform: scale(1.9);
+}
+	#kontaktdesno:hover{
+	transform: scale(1.2);
+}
+	.pj:hover{
+	transform: scale(1.1);
+}
+	.jezik{
+	color: transparent;
+}
+	.git{
+	width: 40px;
+	height: 40px;
+	z-index: 50;
+    padding: 0px;
+}
+.agithub{
+	    position: absolute;
+	    bottom: 5%;
+		 width: 40px;
+		 height: 40px;
+		 z-index: 10;
+
+    right:25%;
+    left:50%;
+    margin-left:-15px;	
+}
+h3{
+font-size: 35px;
+	}
+	a{
+		font-size: 35px;
+	}
+	h2{
+		font-size: 45px;
+	}
+	p{
+		font-size: 30px;
+	}
+h4{
+		font-size: 30px;
+	}
+	#but,#btnresume{
+    
+    width: 300px;
+	height: 150px;
+	font-size: 30px;
+}
+@media screen and (max-width: 1450px){/*LaptopL*/
+	.ik:hover{
+	transform: scale(1.9);
+}
+	#kontaktdesno:hover{
+	transform: scale(1.2);
+}
+	.pj:hover{
+	transform: scale(1.1);
+}
+	.jezik{
+	color: rgba(47,187,195,0.5);
+	 position:absolute;
+    bottom:-15px;
+    right:25%;
+    left:50%;
+    margin-left:-60px;
+	
+	font-size: 10px;
+}
+	.git{
+	width: 40px;
+	height: 40px;
+	z-index: 50;
+    padding: 0px;
+}
+.agithub{
+	    position: absolute;
+	    bottom: 5%;
+		 width: 40px;
+		 height: 40px;
+		 z-index: 10;
+
+    right:25%;
+    left:50%;
+    margin-left:-15px;	
+}
+h3{
+font-size: 25px;
+	}
+	a{
+		font-size: 18px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	p{
+		font-size: 15px;
+	}
+h4{
+		font-size: 20px;
+	}
+	#but,#btnresume{
+    
+    width: 120px;
+	height: 80px;
+	font-size: 18px;
+}
+@media screen and (max-width: 1300px){/*Laptop*/
+	.ik:hover{
+	transform: scale(1.9);
+}
+	#kontaktdesno:hover{
+	transform: scale(1.2);
+}
+	.pj:hover{
+	transform: scale(1.1);
+}
+	.jezik{
+	color: rgba(47,187,195,0.5);
+	 position:absolute;
+    bottom:-15px;
+    right:25%;
+    left:50%;
+    margin-left:-20%;
+	
+	font-size: 10px;
+}
+	.git{
+	width: 40px;
+	height: 40px;
+	z-index: 50;
+    padding: 0px;
+}
+.agithub{
+	    position: absolute;
+	    bottom: 5%;
+		 width: 40px;
+		 height: 40px;
+		 z-index: 10;
+
+    right:25%;
+    left:50%;
+    margin-left:-15px;	
+}
+h3{
+font-size: 25px;
+	}
+	a{
+		font-size: 13px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	p{
+		font-size: 13px;
+	}
+h4{
+		font-size: 20px;
+	}
+	#but,#btnresume{
+    
+    width: 120px;
+	height: 80px;
+	font-size: 18px;
+}
+}
+@media screen and (max-width: 769px){/*Tablet*/
+	.ik:hover{
+	transform: none;
+}
+	#kontaktdesno:hover{
+	transform: none;
+}
+	.pj:hover{
+	transform: none;
+}
+	#kontaktlevo{
+	width: 40px;
+    position: fixed;
+    bottom: 10%;
+    left: 1%;
+    right: auto;
+    z-index: 10;
+    float: left;
+    color: rgb(168, 178, 209);
+    display: inline;
+}
+
+
+#email{
+	 color: rgb(168, 178, 209);
+	 text-decoration: none;
+	 font-size: 20px;
+
+}
+#kontaktdesno{
+	writing-mode: vertical-lr;
+   bottom: 5%;
+   right: 1%;
+   position: fixed;
+   z-index: 10;
+   transition: transform .2s;
+}
+	.jezik{
+	color: rgba(47,187,195,0.5);
+	 position:absolute;
+    bottom:-15px;
+    right:25%;
+    left:50%;
+    margin-left:-20%;
+	
+	font-size: 10px;
+}
+	.git{
+	width: 35px;
+	height: 35px;
+	z-index: 50;
+    padding: 0px;
+    
+}
+.agithub{
+	    position: absolute;
+	    bottom: -50px;
+		 width: 40px;
+		 height: 40px;
+		bottom: 5%;
+
+    right:25%;
+    left:50%;
+    margin-left:-15px;	
+}
+h3{
+font-size: 15px;
+	}
+	a{
+		font-size: 13px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	p{
+		font-size: 10px;
+	}
+h4{
+		font-size: 13px;
+	}
+	#but,#btnresume{
+    
+    width: 100px;
+	height: 50px;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 550px){/*mobileL*/
+	.ik:hover{
+	transform: none;
+}
+	#kontaktdesno:hover{
+	transform: none;
+}
+	.pj:hover{
+	transform: none;
+}
+	img{
+	width: 25px;
+	padding-top: 30px;
+	background-color: transparent;
+	opacity: 0.7;
+}
+	#email{
+	 
+	 font-size: 15px;
+}
+#fb,#insta{
+	
+	margin-bottom: 20px;
+
+}
+	#kontaktlevo{
+	width: 40px;
+    position: fixed;
+    bottom: 10%;
+    left: 1%;
+    right: auto;
+    z-index: 10;
+    float: left;
+    color: rgb(168, 178, 209);
+    display: inline;
+}
+
+
+#email{
+	 color: rgb(168, 178, 209);
+	 text-decoration: none;
+	 font-size: 15px;
+
+}
+#kontaktdesno{
+	writing-mode: vertical-lr;
+   bottom: 10%;
+   right: 1%;
+   position: fixed;
+   z-index: 10;
+   transition: transform .2s;
+}
+h3{
+font-size: 15px;
+	}
+	a{
+		font-size: 13px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	p{
+		font-size: 10px;
+	}
+h4{
+		font-size: 13px;
+	}
+	#but,#btnresume{
+    
+    width: 100px;
+	height: 50px;
+	font-size: 12px;
+}
+.jezik{
+	font-size: 8px;
+}
+.git{
+	width: 20px;
+	height: 20px;
+	z-index: 50;
+    padding: 0px;
+}
+.agithub{
+	    position: absolute;
+	    bottom: 2%;
+		 width: 40px;
+		 height: 40px;
+		 z-index: 10;
+
+    
+    left:50%;
+   	
+}
+@media screen and (max-width: 375px){/*mobileM*/
+	.ik:hover{
+	transform: none;
+}
+	#kontaktdesno:hover{
+	transform: none;
+}
+	.pj:hover{
+	transform: none;
+}
+		
+h3{
+font-size: 12px;
+	}
+	h2{
+		font-size: 20px;
+	}
+	a{
+		font-size: 10px;
+	}
+	p{
+		font-size: 9px;
+	}
+	
+	h4{
+		font-size: 10px;
+	}
+	#but,#btnresume{
+    
+    width: 100px;
+	height: 50px;
+	font-size: 12px;
+}
+.agithub{
+	    position: absolute;
+	    bottom: 5%;
+		 width: 20px;
+		 height: 20px;
+		 z-index: 10;
+
+    
+    left:55%;
+   	
+}
+
+}
+@media screen and (max-width: 325px){ /*mobileS*/
+	.ik:hover{
+	transform: none;
+}
+	#kontaktdesno:hover{
+	transform: none;
+}
+	.pj:hover{
+	transform: none;
+}
+	img{
+	width: 20px;
+	padding-top: 30px;
+	background-color: transparent;
+	opacity: 0.7;
+}
+	#email{
+	 
+	 font-size: 10px;
+}
+#fb,#insta{
+	
+	margin-bottom: 15px;
+
+}
+h3{
+font-size: 12px;
+	}
+	h2{
+		font-size: 16px;
+	}
+	a{
+		font-size: 10px;
+	}
+	p{
+		font-size: 7px;
+	}
+	h4{
+		font-size: 8px;
+	}
+	#but,#btnresume{
+    
+    width: 80px;
+	height: 35px;
+	font-size: 10px;
+
+}
+}
+
+
